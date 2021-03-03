@@ -1,3 +1,15 @@
+# Set up Vundle:
+# git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+Plugin 'tpope/vim-surround'
+Plugin 'tpope/vim-fugitive'
+Plugin 'tpope/vim-commentary'
+Plugin 'itchyny/lightline.vim'
+Plugin 'pearofducks/ansible-vim'
+Plugin 'easymotion/vim-easymotion'
+call vundle#end()
+
 set nocompatible
 set smartindent
 syntax enable
@@ -39,16 +51,7 @@ set cursorline
 set cursorcolumn
 highlight CursorColumn ctermfg=NONE ctermbg=DarkGrey cterm=bold guifg=white guibg=yellow gui=bold
 
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
-Plugin 'tpope/vim-surround'
-Plugin 'tpope/vim-fugitive'
-Plugin 'tpope/vim-commentary'
-Plugin 'itchyny/lightline.vim'
-Plugin 'pearofducks/ansible-vim'
-Plugin 'easymotion/vim-easymotion'
-call vundle#end()
-
+# lightline settings
 set laststatus=2
 
 let g:lightline = {
