@@ -49,7 +49,7 @@ set cursorline
 
 " Enable cursor column position tracking:
 set cursorcolumn
-highlight CursorColumn ctermfg=NONE ctermbg=DarkGrey cterm=bold guifg=white guibg=yellow gui=bold
+highlight CursorColumn ctermfg=NONE ctermbg=DarkGrey cterm=bold guifg=NONE guibg=DarkGrey gui=bold
 
 # lightline settings
 set laststatus=2
