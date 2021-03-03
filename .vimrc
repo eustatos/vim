@@ -1,5 +1,5 @@
-# Set up Vundle:
-# git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+" Set up Vundle:
+" git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 Plugin 'tpope/vim-surround'
@@ -51,7 +51,7 @@ set cursorline
 set cursorcolumn
 highlight CursorColumn ctermfg=NONE ctermbg=DarkGrey cterm=bold guifg=NONE guibg=DarkGrey gui=bold
 
-# lightline settings
+" lightline settings
 set laststatus=2
 
 let g:lightline = {
